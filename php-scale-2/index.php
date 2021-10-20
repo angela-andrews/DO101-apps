@@ -8,7 +8,7 @@
  <body>
 
 <?php
-  print "<h2>I am running on host -> " . gethostname() ." (" . $_SERVER['SERVER_ADDR'] . ")" .</h2> "\n";
+  print "<h2>I am running on host -></h2> " . gethostname() ." (" . $_SERVER['SERVER_ADDR'] . ")" . "\n";
 ?>
 
 </body>
